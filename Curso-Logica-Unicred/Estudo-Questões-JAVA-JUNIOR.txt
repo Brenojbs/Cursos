@@ -1,0 +1,138 @@
+INTERESSE SOBRE TECH
+O que você costuma fazer para ser manter atualizado? Estou em grupo no Discord e vejo videos no Youtube.
+Você costuma ler livros de tecnologia? Quando foi sua ultima leitura? Quais livros você leu? Estou lendo o livro Java Effetivo e o Clean Code.
+Você costuma fazer cursos sobre tecnologia? Quando foi o último curso que você fez? Qual plataforma ou instituição? Costumo sim. Fiz o curso de Programação da Escola de programação da Trybe e para aprender Java eu fiz uma aceleração na Trybe. Agora quero fazer um curso de Banco de dados para me aprimorar.
+Resumo:
+
+AGILE
+Qual prática de desenvolvimento ágil você conhece? Scrum e Kanban.
+Qual já trabalhou ou teve contato? Com os dois. Em curso e agora na Zallpy.
+Cite dois exemplos de algum framework de desenvolvimento ágil? Consegue detalhar mais? Clickup e Trello para Kanban. São estruras que nos facilita a vida organisando as tarefas de forma visual. Zoom ou Team para Scrum. Com elas fazemos reuniões diarias e Sprints. 
+Resumo:
+
+ORIENTAÇÃO OBJETO
+De acordo com o paradigma da orientação a objetos, o que seria um objeto? Seria uma instancia de uma Classe.
+Qual a diferença entre uma classe e um objeto? Uma classe éo modelo usado para criar um objeto.
+Defina sobrescrita e sobrecarga? Sobrescrita seria reescrever o metodo e Sobrecarga seria escrever mais de um metodo com o mesmo nome e pode ter parametros e retonos diferentes.
+Diferencie uma variável global de uma variável local. Variavel global eu posso usar ela em todo o escopo da classe, a variavel local eu só posso usar no escopo do metodo.
+Defina polimorfismo? É um único nome que pode representar múltiplas implementações.
+Quais são os modificadores de acesso? Default, Public, Protected e Private.
+Resumo:
+
+JAVA
+Você conhece a API Collections? Cite algumas interfaces dessa API e seus casos de uso. Sim. List, Set e Map.
+Você pode citar algum benefício de utilizarmos enums em vez de propriedades estáticas para representar constantes? Enums são mais seguros por não poder ser mudados em tempo de execução e são mais legiveis.
+Você já trabalhou com Generics? Qual problema ele resolve? Generics permitem que você defina uma classe ou método que trabalhe com qualquer tipo de objeto. Evitando erros em tempo de execução.
+Você conhece o conceito de imutabilidade. Como voce garantiria a imutabilidade de um objeto? Sim. Deixaria tudo como Final e não colocaria metodos Set na Classe.
+Conhece alguma classe auxiliar para trabalhar com imutabilidade? A Classe String.
+Sabe me dizer a diferença de Unchecked Exceptions e Checked Exceptions? A diferença é que a Checked é verificada em tempo de compilação e Unchecked não é, e isso significa que o compilador não exige que o chamador manipule ou declare a exceção não verificada.
+Você conhece o Garbage Collector. Consegue citar algum benefício ? Não conheço muito bem. Ele libera espaço na memoria do que já não esta sendo usado, mas parece que pode pessar no desempenho do projeto também.
+Voce conhece Java 8, 11? 
+     Como a especificação do Java tem evoluído para se adaptar a outros paradigmas além do paradigma orientado a objetos? Cite exemplos. ** Introdução de novos recursos de linguagem, e código aberto.
+     Você conhece a API Streams? Voce consegue falar sobre? Sim. É uma forma mais curta de manipular valores de uma coleção.
+     Você conhece expressões Lambdas? Quais benefícios e casos de uso essas expressões adicionam à sintaxe da linguagem? Conheço. É menos verbosa e auxilia na escrita de blocos de códigos consisos e poderosos como em Streams.
+     Você conhece as Functional Interfaces? Cite alguns exemplos. Aprendi recentemente mas não consigo sitar exemplos.
+Resumo:
+
+REST
+Você consegue dizer o que é REST? É um estilo de arquitetura.
+Você consegue me dizer quais os principais verbos HTTP para operações REST? GET, POST, PUT, DELETE.
+Consegue descrever em qual situação codificamos um PUT e um PATCH? PUT é usado para atualizar completamente e PATCH se usa quando quer atualizar parcialmente.
+Qual a diferença entre Query Param e Path param? Os Path param são obrigatórios e não podem ser omitidos, pois são usados para identificar um recurso específico. Os Query Param, por outro lado, são opcionais e podem ser omitidos se não forem necessários.
+Consegue descrever em qual situação você utilizaria cada um destes 2 tipos? O Path param para identificar um recusro especifico. O Query param para filtrar ou classicifar.
+Como você modelaria uma API REST para definir um CRUD de pessoas? ***
+Resumo:
+
+ARQUITETURA DE MICRO SERVIÇOS
+Qual a diferença da arquitetura de micro serviços para a arquitetura monolítica? A Micro Serviços é mais escalavel que a Monolítica. A Monolítica não facilita no desenvolvimento por deixar os desenvolvedores no mesmo ambiente, diferente da Micro Serviços.
+Quais as vantagens e desvantagens da arquitetura de micro serviços em comparação com a arquitetura monolítica? Flexibilidade e escalabilidade. Porêm ela é tem mais complexidade no desenvolvimento, no deploy e na manutenção. 
+Quais os desafios que são encarados para se implantar uma arquitetura de micro serviços? Fazer os microserviços funcionarem bem em conjunto.
+Resumo:
+
+SPRING
+Quais as vantagens de se usar o framework Spring? Ele simplifica o desenvolvimento, fornece um conjunto abrangente de ferramentas e facilita a concentração dos desenvolvedores na logica principal.
+Qual a diferença de Spring para Spring Boot? Spring é baseado em Java e o Spring Boot é baseado em Spring. Spring Boot é feito para ser mais pratico. 
+Como o Spring provê a injeção de dependências aos desenvolvedores? Pelo Construtor e Autowired.
+Quais são as principais estereótipos (anotações) do Spring? Controller, Service, Autowired, Repository...
+        Para qual finalidade é utilizada a anotação @ComponentScan? Para escanear pacotes e subpacotes. Pode ser usada para diminuir configurações feitas a mão.
+        O que acontece quando você marca uma classe com o anotação @Component? Quando usado marca a classe como canditada a ser varrida pela @ComponenteScan.
+        Qual a diferença entre as anotações @RestController e @Controller? @Controller é usado para lidar com páginas da Web tradicionais que retornam visualizações, enquanto @RestController é usado para criar serviços da Web RESTful que retornam JSON ou XML.
+Quais são os possíveis escopos que estão disponíveis em uma aplicação Spring? Singleton, Prototype, Request, Session, Global Session, Application.
+Como é possível tratar exceções usando Spring? Usando @ControllerAdvice.
+
+Resumo:
+
+BANCO DE DADOS
+Com quais bancos de dados já trabalhou profissionalmente? PostgreSQL.
+Defina o que é um banco de dados relacional e não relacional. Cite exemplos de ambos. Banco relacional é constituido com tabelas e relações entre elas, as relações entre as tabelas são estabelecidas por meio de chaves primárias e estrangeiras. Os não Relacionais não usam tabelas. Foram feitos para lidar com grandes volumes de dados não estruturados, semiestruturados ou estruturados. PostgreSQL e MongoDB.
+O que te motivaria a utilizar um banco de dados NoSQL ou SQL em um projeto? Dependeria da escalabilidade, do custo financeiro, do desempenho necessário.
+Você conhece o conceito de transação? Mais ou menos. É algo muito poderoso que evita problemas de inconsistencia e integridade no banco de dados.
+Resumo:
+
+JPA
+Já utilizou JPA? Onde foi aplicada? Comente sobre a utilização. Sim. Estou usando hoje em dia e já usei em outros projetos. Eu gosto de usar JPA porque acelera a criação de entidades e facilita a manipulação do banco de dados.
+Cite algumas anotações utilizadas pela JPA
+        Entity
+        Primery Key
+        Colum
+        Table
+        OnetoMany
+Ao criar uma entidade e realizar seu mapeamento, é necessário utilizar a anotação @Id? Por que? Para definir a coluna como identificadora unica.
+Quando temos uma entidade mapeada queremos que um determinado atributo seja ignorado na persistência, qual anotação utilizamos? @jsonignore.
+Cite implementações de JPA? Hibernate e OpenJPA.
+Resumo:
+
+SPRING DATA JPA
+Tem conhecimento sobre? O que é? Comente. Sim. É um projeto Spring framework que facilita a integração com o Banco de Dados e ficou mais pratico para desenvolver uma aplicação CRUD.
+Imaginando que temos um microservice que precisa controlar atomicidade de transações. Como implementaria uma transação utilizando Spring Data JPA? Não sei dizer.
+Já precisou implementar uma query complexa utilizando Spring Data JPA? Como implementou? Ainda não. Apenas Queries simples, usando Query Nativa.
+        Query Nativa
+        Query Method
+        JPQL
+        Criteria
+        Especification
+Resumo:
+
+TESTES UNITÁRIOS/INTEGRAÇÃO/MOCKITO
+Conhece a diferença entre teste unitário e teste de integração? Sim.
+Para que servem os testes unitários e quais as suas vantagens? Consegue citar exemplos de como isso ajuda na qualidade de software?  Para verificar a qualidade e funcionalidade de unidades. As vantagens são relacionadas a confiabilidade e economia de tempo e dinheiro. A qualidade melhora porque eles evitam que refatorações alterem os valores esperados.
+Qual estratégia você adotaria para criar testes unitários? (a idéia aqui é saber se o candidato realmente escreve testes ou apenas conhece seus conceitos) Eu adoraria usar o TDD, mas normalmente eu escrevo primeiro os metodos e depois testo.
+Comente sobre testes de integração e onde você costuma implementar no seu projeto? Estes tipos de testes são para verificar a conexão entre os metodos. Eu implemento para testar se os pacotes se comunicam corretamente.
+Conhece Junit? Consegue citar as principais annotations? Sim. Before, After, Test, Description, Ignore. 
+Conhece Mockito? Consegue citar as principais annotations? Sim conheço. Mock, InjectMocks, Captor.
+Para a garantia de que contratos de APIs tenham cobertura de teste utiliza algum framework? (MockMvc ou RestAssured) Não.
+Você saberia informar o porquê a injeção de dependência de classes direto no construtor é considerado uma boa prática para a criação de testes de integração? Porque ajuda a separar as responsabilidades das classes, torna o código mais flexível, testável e claro, e facilita a manutenção e o teste de cada classe individualmente.
+Voce ja trabalhou com cobertura de codigo? Qual ferramenta voce utilizou? Qual importancia da cobertura de codigo? Sim. Coverage. A cobertura de código ajuda na confiabilidade e em futuras refatorações.
+Voce conhece testcontainers? Não conheço.
+Resumo:
+
+MENSAGERIA
+Você conhece o conceito da mensageria de microserviços e consegue citar algum Message Broker que já trabalhou? Já vi o SocketIO.
+Você consegue detalhar algum case no qual você utilizou mensageria: Não consigo.
+Qual a vantagem que você identificou ao utilizar a comunicação assíncrona via Message Broker? *
+Resumo:
+
+DESIGN PATTERNS
+O que são Design Patterns? São padrões de Projetos.
+Consegue descrever algum design pattern?
+Como podem ser classificados?
+CREATIONAL PATTERNS
+Quais os padrões do tipo criacional e o que eles podem resolver?
+O que é Singleton Pattern e como funciona?
+O que é Build Pattern e como funciona?
+O que é Factory Pattern e como funciona??
+STRUCTURAL PATTERNS
+Quais os padrões do tipo estrutural e o que eles podem resolver?
+O que é DAO Pattern?
+O que é Facade Pattern e como ele funciona?
+O que é Decorator Pattern, e como ele funciona?
+BEHAVIORAL PATTERNS
+Quais os padrões do tipo behavioral e o que eles podem resolver?
+O que é Chain of Responsability e como ele funciona?
+O que é Strategy Pattern e como funciona?
+O que é o padrão Observer e como ele funciona?
+O que é o padrão State e como ele funciona?
+OUTROS DESIGN PATTERNS ****
+O que é o Data Transfer Object Pattern (DTO)? É um Padrão de Projeto que visa proteção de informações sensíveis usando uma Classe DTO para expor apenas as informações necessarias.
+O que é o padrão Dependency Injection e como ele funciona?
+Qual o principal benefício do princípio de Inversão de Controle? Dê exemplos de Design Patterns contribuem para este princípio.
